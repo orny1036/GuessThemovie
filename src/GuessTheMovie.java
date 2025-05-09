@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Hangman {
+public class GuessTheMovie {
    public static void main(String[] args)
    {
        String name = "notebook";
