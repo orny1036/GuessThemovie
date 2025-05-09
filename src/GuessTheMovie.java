@@ -18,8 +18,8 @@ public class GuessTheMovie {
            System.out.print(c + " ");
        }
        System.out.println();
-      // int noOfGuesses = 8;
-       while (wrongGuesses <= 6 && correctGuesses<name.length())
+       int limit = name.length()/2;
+       while (wrongGuesses <= limit && correctGuesses<name.length())
        {
            System.out.print("Enter your guess : ");
           String input = scanner.next().toLowerCase();
